@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(143, 108, 108);
+    color: rgb(45, 43, 43);
+    padding: 20px;
+}
+nav {
+    background-color: #ac9a81;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(45, 43, 43);
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color: rgb(166, 141, 96);    
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.content {
+    display: flex;
+    margin: 60px;
+}
