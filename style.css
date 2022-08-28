@@ -2,14 +2,21 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: rgb(213, 200, 184);
+    font-family: verdana, arial, helvetica, sans-serif;
+}
 h1 {
     text-align: center;
-    background-color: rgb(143, 108, 108);
-    color: rgb(45, 43, 43);
-    padding: 20px;
+    background-color: rgba(213, 200, 184, 0);
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    font-weight: lighter;
+    background-image: url("fabric.png");
+    background-size: cover;
 }
 nav {
-    background-color: #ac9a81;
+    background-color: rgba(166, 141, 96, 0.223);
     width: 100%;
     list-style-type: none;
     text-align: center;
@@ -19,20 +26,29 @@ nav li {
 }
 nav a {
     text-decoration: none;
-    color: rgb(45, 43, 43);
+    color: rgb(255, 255, 255);
     padding: 10px;
-    width: 150px;
+    width: 100px;
 }
 nav li:hover {
-    background-color: rgb(166, 141, 96);    
+    background-color: rgba(166, 141, 96, 0.695);
 }
 img {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     object-fit: cover;
+    margin: 50px;
 }
-.content {
+.catalog {
     display: flex;
-    margin: 60px;
+    flex-wrap: wrap;
+    margin: 70px;
+    justify-content: space-evenly;
+    text-align: center;
+    
+
 }
+footer {
+    background-color: rgba(166, 141, 96, 0.223)
+}   
